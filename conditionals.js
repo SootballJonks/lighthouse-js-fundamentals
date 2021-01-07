@@ -1,3 +1,9 @@
+/*The following are exercises that are outlined in Lighthouse Labs' 70-hr prep module.
+The prep module can be found at: https://https://web.compass.lighthouselabs.ca/prep/prep/activities/33 
+It's just basic JavaScript exercises.*/
+
+/*'if' statements:*/
+
 const raining=true;
 const cold=false;
 
@@ -16,3 +22,25 @@ if (temperature<0){
 }
 
 console.log(`Now you're ready to go outside!`);
+
+console.log('');
+/*Logical operators*/
+
+//example using &&
+const isCitizen=true;
+const age=26;
+
+if (isCitizen && age > 18){
+  console.log(`You are eligible to vote.`);
+}
+
+//example using ||
+if (temperature < -40 || temperature > 40){
+  console.log(`Maybe going outside isn't such a great idea...`);
+}
+
+//example using !
+if (!raining){
+  console.log(`Leave your umbrella at home!`);
+}
+
